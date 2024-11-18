@@ -198,7 +198,7 @@
             const tokenPattern = /^\d{6}[a-dA-D]?$/;
 
             if (!tokenPattern.test(tokenInput.value)) {
-                tokenError.textContent = 'Please enter a valid 6-digit number or \n a 7-digit number ending with an alphabet (a, b, c, or d).';
+                tokenError.textContent = 'please enter a valid 6-digit number or \n a 7-digit number ending with an alphabet (a, b, c, or d).';
                 tokenError.classList.remove('hidden');
                 return;
             } else {
